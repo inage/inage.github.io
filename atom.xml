@@ -4,7 +4,7 @@
   <title><![CDATA[アウトプットは唐突に。]]></title>
   <link href="http://inage.github.io/atom.xml" rel="self"/>
   <link href="http://inage.github.io/"/>
-  <updated>2014-06-11T10:11:19+00:00</updated>
+  <updated>2014-06-11T10:15:11+00:00</updated>
   <id>http://inage.github.io/</id>
   <author>
     <name><![CDATA[inage]]></name>
@@ -18,13 +18,32 @@
     <link href="http://inage.github.io/blog/2014/06/11/initial-post/"/>
     <updated>2014-06-11T08:38:51+00:00</updated>
     <id>http://inage.github.io/blog/2014/06/11/initial-post</id>
-    <content type="html"><![CDATA[<h1>マークダウン記法の練習</h1>
+    <content type="html"><![CDATA[<h2>マークダウン記法の練習</h2>
 
-<h1>上記はh1でこれもh1</h1>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>h1
+</span><span class='line'>=====
+</span><span class='line'>
+</span><span class='line'>h2
+</span><span class='line'>-----
+</span><span class='line'>
+</span><span class='line'># h1
+</span><span class='line'>## h2
+</span><span class='line'>### h3
+</span><span class='line'>#### h4
+</span><span class='line'>##### H5
+</span></code></pre></td></tr></table></div></figure>
 
-<h2>h2はこちら</h2>
-
-<h2>こちらもh2</h2>
 
 <pre><code>def code
   puts "インラインコード"
