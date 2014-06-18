@@ -4,7 +4,7 @@
   <title><![CDATA[アウトプットは唐突に。]]></title>
   <link href="http://inage.github.io/atom.xml" rel="self"/>
   <link href="http://inage.github.io/"/>
-  <updated>2014-06-11T10:15:11+00:00</updated>
+  <updated>2014-06-18T06:01:44+00:00</updated>
   <id>http://inage.github.io/</id>
   <author>
     <name><![CDATA[inage]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octpressの使い方]]></title>
+    <link href="http://inage.github.io/blog/2014/06/18/how-to-use-octpress/"/>
+    <updated>2014-06-18T05:45:45+00:00</updated>
+    <id>http://inage.github.io/blog/2014/06/18/how-to-use-octpress</id>
+    <content type="html"><![CDATA[<h2>Octpressの使い方について</h2>
+
+<p>ほんのちょっと気を抜くとFacebook以外のアウトプットが無くなってしまう。
+複数のアウトプットを続けるってのは難しいなぁと再確認したので、意識できている間に記事をいつくか追加したいと思う。</p>
+
+<p>というわけで、備忘録代わりにOctpressの使い方書いておく。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post["how_to_use_octpress"]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>上記のコマンドで記事のひな形が生成される。記事名に日本語は使えない。<br/>
+今回の記事だと以下な感じ。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>---
+</span><span class='line'>layout: post
+</span><span class='line'>title: "how_to_use_octpress"
+</span><span class='line'>date: 2014-06-18 05:45:45 +0000
+</span><span class='line'>comments: true
+</span><span class='line'>categories: 
+</span><span class='line'>---</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ここのtitleを書き換えると日本語タイトルの記事にも出来る。<br/>
+あとはマークダウン記法で本文を書いたら記事を生成してデプロイ。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>投稿前にプレビューするなら以下を叩くとlocalhost:4000でサーバが立ち上がり確認できる。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p>以上。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[initial post]]></title>
