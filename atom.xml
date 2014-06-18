@@ -4,7 +4,7 @@
   <title><![CDATA[アウトプットは唐突に。]]></title>
   <link href="http://inage.github.io/atom.xml" rel="self"/>
   <link href="http://inage.github.io/"/>
-  <updated>2014-06-18T06:01:44+00:00</updated>
+  <updated>2014-06-18T07:30:30+00:00</updated>
   <id>http://inage.github.io/</id>
   <author>
     <name><![CDATA[inage]]></name>
@@ -12,6 +12,66 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Web scraping -指差し確認の時代]]></title>
+    <link href="http://inage.github.io/blog/2014/06/18/web-scraping/"/>
+    <updated>2014-06-18T06:04:33+00:00</updated>
+    <id>http://inage.github.io/blog/2014/06/18/web-scraping</id>
+    <content type="html"><![CDATA[<h1>Web scraping</h1>
+
+<p>RubyやらPythonやらPerlやらのLLを使っている紳士諸氏は、当然のことながらウェブスクレイピングに精通していること思う。
+そんな先達たちにはお耳汚しのことと思うが、スクレイピングの手法について過去を振り返りながら四方山話を繰り広げたい。</p>
+
+<p>なお、スクレイピングとはウェブサイト上から自身の必要とする情報だけを抽出することをいう。</p>
+
+<p>全体としては以下な感じの構成を考えている。</p>
+
+<ul>
+<li>指差し確認</li>
+<li>検索と正規表現</li>
+<li>巡回と定期実行</li>
+<li>HTMLパーサー</li>
+<li>RSSパーサー</li>
+<li>自作検索エンジン</li>
+<li>自作プロキシ</li>
+<li>DOM操作とXPath</li>
+<li>テストとヘッドレスブラウザ</li>
+</ul>
+
+
+<p>筆不精な自分としては記事数を増やしたいので、それぞれごとにページを割くこととする。</p>
+
+<h2>指差し確認の時代</h2>
+
+<p>スクレイピングと自動化は切っても切り離せない関係にある。
+あの人もこの人も、最初はマウスポインタでの指差し確認から入ってクリック！を経験したはずである。</p>
+
+<p><strong>現物を確認して右クリック！保存！</strong></p>
+
+<p>それがいつしか、プログラムを組み、対象を巡回し、条件に当てはまれば自動的にダウンロードを始めるスパイダーを使うようになる。
+目的もちょっとだけ高尚なものになったり、ドキドキを忘れたり、出力を加工して再利用可能にしたりなど、段階を踏むことで成長して行くのだ。</p>
+
+<p>おそらく今ももっともユーザーの多い手法である人力スクレイピングは、とてつもない時間を浪費することで知られている。</p>
+
+<ul>
+<li>ブラウザを立ち上げて</li>
+<li>検索なりブックマークなりから特定のサイトを表示</li>
+<li>必要なデータがあるか目視で確認</li>
+<li>自分なりの方法で抽出</li>
+<li>自分ルールでデータを保存</li>
+</ul>
+
+
+<p>これを延々と、自分が満足するまで繰り返すのだ。
+みんなが通る道なのだから、もちろん一昔前までは大手IT企業もこれを大まじめにやっていた。<strong>ディレクトリ型検索エンジン</strong>だ。</p>
+
+<p>Googleが登場するまではこのタイプの検索エンジンが主流で、当時ホームページを作ったりしてた人はYahooへ登録申請を行ったことがあるんじゃないかと思う。
+ディレクトリ型検索エンジンはいまでも一定の需要があるし、あとあと記事にする予定の自作検索エンジンを作るなら<a href="http://www.dmoz.org/">Open Directory Project</a>にお世話になったりもする。</p>
+
+<p>外出の時間になったので、とりあえず今日はここまで。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octpressの使い方]]></title>
